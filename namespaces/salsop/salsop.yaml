@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: salsop
+  annotations:
+    configsync.gke.io/cluster-name-selector: exam
+
